@@ -1,0 +1,27 @@
+/* styles/fonts.css */
+@font-face {
+  font-family: "CustomFont";
+  src: url("/fonts/Mohave.ttf") format("truetype");
+}
+
+.custom-font-title {
+  font-family: "CustomFont", sans-serif;
+  font-weight: 600;
+  font-size: 98px;
+}
+
+.custom-font-subtitle {
+  font-family: "CustomFont", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+}
+
+.custom-font-content {
+  font-family: "CustomFont", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.custom-font {
+  font-family: "CustomFont", sans-serif;
+}
