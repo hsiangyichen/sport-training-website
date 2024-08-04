@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { FiMenu, FiX } from "react-icons/fi";
+import { FiChevronDown } from "react-icons/fi";
 import {
   FaInstagram,
   FaFacebook,
@@ -9,19 +9,20 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
-import navLinksChinese from "../lib/chinese";
-import navLinksEnglish from "../lib/english";
+import { useTranslations } from "next-intl";
+import LocaleSwitcher from "./LocalSwitcher";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState("english");
+  const t = useTranslations("Navbar");
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
   };
 
-  const navLinks =
-    selectedLanguage === "english" ? navLinksEnglish : navLinksChinese;
+  const closeDropdown = () => {
+    setDropdownOpen(false);
+  };
 
   const iconLinks = [
     {
@@ -46,14 +47,8 @@ const Navbar = () => {
     },
   ];
 
-  const languages = ["中文", "english"];
-
-  const handleLanguageChange = (language) => {
-    setSelectedLanguage(language);
-  };
-
   return (
-    <nav className="w-full px-10 flex justify-between items-center py-6 h-[10vh] overflow-hidden">
+    <nav className="w-full px-10 flex justify-between items-center py-6 h-[10vh] ">
       <div className="flex items-center">
         <Link href="/" legacyBehavior>
           <a>
@@ -67,14 +62,80 @@ const Navbar = () => {
           </a>
         </Link>
       </div>
-
       <div className="flex justify-end items-center text-sm gap-6">
-        <div className="flex space-x-6">
-          {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} legacyBehavior>
-              <a>{link.label}</a>
-            </Link>
-          ))}
+        <div className="flex space-x-6 relative">
+          <Link href="/" legacyBehavior>
+            <a>{t("home")}</a>
+          </Link>
+          <Link href="/about" legacyBehavior>
+            <a>{t("about")}</a>
+          </Link>
+          <div className="relative">
+            <button
+              className="flex items-center focus:outline-none"
+              onClick={toggleDropdown}
+            >
+              {t("volleyball.label")} <FiChevronDown className="ml-1" />
+            </button>
+            {dropdownOpen && (
+              <div className="absolute left-0 mt-2 w-48 bg-white shadow-xl z-50">
+                <Link href="/volleyball" legacyBehavior>
+                  <a
+                    className="block px-4 py-3 text-gray-800 hover:bg-gray-200"
+                    onClick={closeDropdown}
+                  >
+                    {t("volleyball.details")}
+                  </a>
+                </Link>
+                <Link href="/volleyball/regularClass" legacyBehavior>
+                  <a
+                    className="block px-4 py-3 text-gray-800 hover:bg-gray-200 border-t"
+                    onClick={closeDropdown}
+                  >
+                    {t("volleyball.regularClass")}
+                  </a>
+                </Link>
+                <Link href="/volleyball/trainingCamp" legacyBehavior>
+                  <a
+                    className="block px-4 py-3 text-gray-800 hover:bg-gray-200 border-t"
+                    onClick={closeDropdown}
+                  >
+                    {t("volleyball.trainingCamp")}
+                  </a>
+                </Link>
+                <Link href="/volleyball/experienceDay" legacyBehavior>
+                  <a
+                    className="block px-4 py-3 text-gray-800 hover:bg-gray-200 border-t"
+                    onClick={closeDropdown}
+                  >
+                    {t("volleyball.experienceDay")}
+                  </a>
+                </Link>
+                <Link href="/volleyball/coachingSupport" legacyBehavior>
+                  <a
+                    className="block px-4 py-3 text-gray-800 hover:bg-gray-200 border-t"
+                    onClick={closeDropdown}
+                  >
+                    {t("volleyball.coachingSupport")}
+                  </a>
+                </Link>
+                <Link href="/volleyball/coaches" legacyBehavior>
+                  <a
+                    className="block px-4 py-3 text-gray-800 hover:bg-gray-200 border-t"
+                    onClick={closeDropdown}
+                  >
+                    {t("volleyball.coaches")}
+                  </a>
+                </Link>
+              </div>
+            )}
+          </div>
+          <Link href="#contact" legacyBehavior>
+            <a>{t("contact")}</a>
+          </Link>
+          <Link href="/faq" legacyBehavior>
+            <a>{t("faq")}</a>
+          </Link>
         </div>
         |
         <div className="flex space-x-4">
@@ -90,19 +151,7 @@ const Navbar = () => {
           ))}
         </div>
         |
-        <div className="flex space-x-4">
-          {languages.map((language) => (
-            <button
-              key={language}
-              className={`${
-                selectedLanguage === language ? "" : "text-neutral-400"
-              } ${language === "中文" ? "w-8" : "w-12"}`}
-              onClick={() => handleLanguageChange(language)}
-            >
-              {language}
-            </button>
-          ))}
-        </div>
+        <LocaleSwitcher />
       </div>
     </nav>
   );

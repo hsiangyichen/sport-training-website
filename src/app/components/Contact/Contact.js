@@ -5,10 +5,11 @@ import {
   FaEnvelope,
   FaWhatsapp,
 } from "react-icons/fa";
-import styles from "./styles.module.scss";
-import "../../styles/fonts.css";
+import { useTranslations } from "next-intl";
 
 const Contact = () => {
+  const t = useTranslations("Contact");
+
   const iconLinks = [
     {
       href: "https://www.instagram.com/skysportsacademy_hk?igsh=MTl1anloczBoZ2JxdQ%3D%3D&utm_source=qr",
@@ -39,9 +40,9 @@ const Contact = () => {
     >
       <div className="flex flex-row justify-evenly w-full">
         <div className="flex flex-col text-2xl custom-font-subtitle gap-6 pt-1.5">
-          <a href="/about">ABOUT</a>
-          <a href="/volleyball">VOLLEYBALL</a>
-          <a href="#contact">CONTACT</a>
+          <a href="/about">{t("about")}</a>
+          <a href="/volleyball">{t("volleyball")}</a>
+          <a href="#contact">{t("contact")}</a>
         </div>
         <div className="flex flex-row gap-4">
           {iconLinks.map((link) => (
@@ -57,8 +58,8 @@ const Contact = () => {
           ))}
         </div>
       </div>
-      <p className="py-28 custom-font-content ">
-        If you have any inquiries, feel free to contact us at {""}
+      <p className="py-28 custom-font-content">
+        {t("inquiries")}{" "}
         <a href="mailto:hksas2023@gmail.com">hkssa2023@gmail.com</a>
       </p>
     </div>

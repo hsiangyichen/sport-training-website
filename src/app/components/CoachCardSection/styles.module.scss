@@ -1,0 +1,57 @@
+.coachCardSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  //   margin: 10%;
+}
+
+.coachCard {
+  display: flex;
+  align-items: center;
+  background: #1b1b1b;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  color: #fff;
+}
+
+.coachContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.oddCard .coachContent {
+  flex-direction: row;
+}
+
+.evenCard .coachContent {
+  flex-direction: row-reverse;
+}
+
+.coachImage {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+}
+
+.coachInfo {
+  padding: 16px;
+  width: 50%;
+  text-align: center;
+}
+
+.coachInfo h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.coachInfo p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 300;
+  color: #ccc;
+}

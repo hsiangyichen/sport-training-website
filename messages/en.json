@@ -1,0 +1,143 @@
+{
+  "Navbar": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "contact": "CONTACT",
+    "volleyball": {
+      "label": "VOLLEYBALL",
+      "details": "Overview",
+      "regularClass": "Regular Class",
+      "trainingCamp": "Training Camp",
+      "experienceDay": "Experience Day For School Or Institution",
+      "coachingSupport": "Coaching Support For School Or Institution",
+      "coaches": "Coaches"
+    },
+    "faq": "FAQ",
+    "english": "English",
+    "chinese": "中文"
+  },
+  "About": {
+    "title": "ABOUT",
+    "intro": "We are dedicated to providing top-notch sports training and development programs for athletes of all ages and skill levels. Our team of experienced and highly qualified coaches are passionate about helping athletes reach their full potential. With their expertise and guidance, you can expect to receive personalized training that focuses on improving your skills, technique, and overall performance in your chosen sport.",
+    "description": "We offer a wide range of sports programs, including volleyball, basketball, football, badminton and tennis. Each program is designed to provide a comprehensive and well-rounded training experience, covering everything from skill development to tactical strategies and physical conditioning. In addition to our regular training programs, we also organize various events, tournaments, and camps throughout the year. These events provide opportunities for athletes to showcase their skills, compete against others, and gain valuable experience in a competitive setting.",
+    "mission": "At the Sky Sports Academy, we believe in the power of sports to inspire, empower, and transform lives. Our mission is to nurture talent, instill discipline, and promote a love for sports in all our athletes. Join us on this exciting journey and unlock your full potential with the Sky Sports Academy.",
+    "browse": "Browse through our website to learn more about our programs, facilities, and upcoming events. Feel free to contact us if you have any questions or would like to enroll in one of our programs. Get ready to soar to new heights with the Sky Sports Academy! Your journey to athletic greatness starts here!"
+  },
+  "WhatWeOffer": {
+    "label": "WHAT WE OFFER",
+    "sections": {
+      "coaches": {
+        "title": "Our Coaches",
+        "description": "Current Hong Kong Men’s Volleyball Team member. Passionate, experienced, and highly qualified, our coaches provide personalized training to help athletes reach their full potential.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/coaches"
+      },
+      "programs": {
+        "title": "Different Programs",
+        "description": "Comprehensive programs in volleyball, focusing on skill development, tactics and conditioning. Suitable for beginners and advanced players.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball"
+      },
+      "coachingSupport": {
+        "title": "Coaching Support",
+        "description": "Collaborate with schools to design tailored coaching programs, including regular training sessions, fitness programs, and performance analysis.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/coachingSupport"
+      }
+    }
+  },
+  "Volleyball": {
+    "title": "VOLLEYBALL",
+    "overview": "OVERVIEW",
+    "regularCourse": {
+      "title": "REGULAR COURSE",
+      "points": [
+        "Teach fundamentals of volleyball in a progressive manner, starting from basic form of underhand and overarm pass, and gradually advancing to more complex techniques.",
+        "Promote physical activity, coordination, teamwork and communication skills among students.",
+        "Provide a platform for students to enjoy volleyball through various drills and mini-games.",
+        "Emphasize on sportsmanship and educate safety precautions to minimize the risk of injuries.",
+        "Act as the stepping stone to being selected for the HKSSA Elite Team →Represents HKSSA in local competitions."
+      ]
+    },
+    "trainingCamp": {
+      "title": "TRAINING CAMPS",
+      "points": [
+        "Perfect for young athletes who are passionate about volleyball and want to take their skills to the next level in a short period of time.",
+        "Design personalized training to help beginners and advanced players improve their technique, agility, and overall game.",
+        "Plan fun and interactive activities to keep campers engaged and entertained.",
+        "Great opportunity to take the volleyball game to new heights during the holiday breaks.",
+        "Provide you with the skills, knowledge, and memories that will last a lifetime!!"
+      ]
+    },
+    "experienceDay": {
+      "title": "EXPERIENCE DAY FOR SCHOOL OR INSTITUTION",
+      "points": [
+        "Introduce students to the exciting sport of volleyball.",
+        "Experience the fundamentals of volleyball, ignite students’ passion for the game.",
+        "A structured program includes a variety of drills (serving, passing, spiking) designed to enhance participants' understanding of volleyball.",
+        "Perfect for schools who are looking to introduce volleyball as a new sport or further develop existing volleyball programs."
+      ]
+    },
+    "coachingSupport": {
+      "title": "COACHING SUPPORT FOR SCHOOL OR INSTITUTION",
+      "points": [
+        "Offer comprehensive coaching support to schools, empowering them to enhance their sports programs and achieve remarkable results.",
+        "Collaborate closely with schools to design tailored coaching programs that align with their specific needs and goals.",
+        "Prioritize individualized attention, ensuring every student receives personalized coaching to maximize their potential and foster a positive sports experience.",
+        "Aims to nurture young athletes and promote a culture of sports excellence in the school."
+      ]
+    },
+    "coaches": {
+      "title": "OUR COACHES",
+      "CheungNgaiYiu": {
+        "name": "Cheung Ngai Yiu",
+        "title": "Member of Hong Kong Men’s Volleyball Team"
+      },
+      "WanKaNam": {
+        "name": "Wan Ka Nam",
+        "title": "Member of Hong Kong Men’s Volleyball Team"
+      },
+      "NgTszYing": {
+        "name": "Ng Tsz Ying",
+        "title": "Hong Kong D2 League Player"
+      },
+      "CheungYuCham": {
+        "name": "Cheung Yu Cham",
+        "title": "Member of Hong Kong Men’s Volleyball Team"
+      },
+      "LiuNgaiKam": {
+        "name": "Liu Ngai Kam",
+        "title": "Hong Kong D1 League Player"
+      },
+      "LeungHinWai": {
+        "name": "Leung Hin Wai",
+        "title": "Hong Kong D1 League Player"
+      }
+    }
+  },
+  "Contact": {
+    "about": "ABOUT",
+    "volleyball": "VOLLEYBALL",
+    "contact": "CONTACT",
+    "inquiries": "If you have any inquiries, feel free to contact us at"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Question",
+    "trainingLocation": {
+      "question": "Where will the training course be held?",
+      "answer": "Our training courses are mainly held in the Kowloon District (Yau Tsim Mong and Sham Shui Po District) Indoor Sports Centers."
+    },
+    "makeupOrRefund": {
+      "question": "Will there be make-up classes or refunds available if I miss a class?",
+      "answer": "All classes are non-refundable. If participants need to take leave, they can contact us in advance via email/WhatsApp at the time of registration. If the unavailable dates are not mentioned at the time of registration, we will only accept medical leave (which requires a doctor's note or related medical certificate) for any sudden absences after registration."
+    },
+    "trialOrJoin": {
+      "question": "Can I have a trial or join the course during its ongoing period?",
+      "answer": "Yes, you can. For more details, please contact us."
+    },
+    "severeWeather": {
+      "question": "How are classes arranged during severe weather conditions? Is there a make-up class or refund arrangement?",
+      "answer": "We will notify everyone in the WhatsApp group 2 hours before the class whether the training can proceed as scheduled on that day. We do not provide make-up classes, but the class fee for that day will be refunded to the students within 3 working days."
+    }
+  }
+}

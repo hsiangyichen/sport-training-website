@@ -3,3 +3,8 @@ export * from "./ImageSlider";
 export * from "./ReadMoreSection";
 export * from "./IrregularTitle";
 export * from "./Contact";
+export * from "./HomePageMainSection";
+export * from "./LocalSwitcher";
+export * from "./MainPageMainSection";
+export * from "./CoachCardSection";
+export * from "./SubPageMainSection";
