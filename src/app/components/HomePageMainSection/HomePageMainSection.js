@@ -46,7 +46,7 @@ const HomePageMainSection = () => {
   }, [currentSlide]);
 
   return (
-    <div className={`h-[80vh] ${styles.sliderContainer}`}>
+    <div className={`h-[60vh] md:h-[80vh] ${styles.sliderContainer}`}>
       <div className={styles.gradientOverlay}></div>
       <div className="absolute w-full top-0">
         <Carousel
@@ -61,7 +61,7 @@ const HomePageMainSection = () => {
           onChange={(index) => setCurrentSlide(index)}
         >
           {images.map((image) => (
-            <div key={image.id} className="h-[80vh] relative">
+            <div key={image.id} className="h-[60vh] md:h-[80vh] relative">
               <Image
                 src={image.url}
                 alt={image.title}
@@ -74,7 +74,7 @@ const HomePageMainSection = () => {
         </Carousel>
       </div>
 
-      <div className="flex flex-col items-center justify-center w-screen h-[80vh] z-10">
+      <div className="flex flex-col items-center justify-center w-screen h-[60vh] md:h-[80vh] z-10">
         <div
           key={currentSlide}
           className={` ${styles.title} ${!isInitialMount ? styles.fadeIn : ""}`}

@@ -30,7 +30,7 @@ function CardSlider() {
           style={{ objectFit: "cover", objectPosition: "center" }}
         />
       </div>
-      <div className="max-w-[1500px] relative">
+      <div className="max-w-[1500px] w-full relative overflow-hidden">
         <Swiper
           effect={"coverflow"}
           centeredSlides={true}

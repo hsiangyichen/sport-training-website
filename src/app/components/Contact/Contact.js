@@ -39,7 +39,7 @@ const Contact = () => {
       className="flex pt-12 md:pt-28 flex-col w-full bg-white text-black"
     >
       <div className="flex flex-row justify-evenly w-full">
-        <div className="flex flex-col custom-font text-3xl md:text-[42px] md:font-medium md:gap-6 md:pt-1.5">
+        <div className="flex flex-col custom-font text-2xl md:text-[42px] font-normal md:gap-6 md:pt-1.5">
           <a href="/about">{t("about")}</a>
           <a href="/volleyball">{t("volleyball")}</a>
           <a href="#contact">{t("contact")}</a>
