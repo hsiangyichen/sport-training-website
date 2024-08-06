@@ -8,3 +8,6 @@ export * from "./LocalSwitcher";
 export * from "./MainPageMainSection";
 export * from "./CoachCardSection";
 export * from "./SubPageMainSection";
+export * from "./Overview";
+export * from "./CourseDetailSection";
+export * from "./Card";

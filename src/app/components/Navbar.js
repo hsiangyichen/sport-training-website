@@ -87,12 +87,12 @@ const Navbar = () => {
                     {t("volleyball.details")}
                   </a>
                 </Link>
-                <Link href="/volleyball/regularClass" legacyBehavior>
+                <Link href="/volleyball/regularCourse" legacyBehavior>
                   <a
                     className="block px-4 py-3 text-gray-800 hover:bg-gray-200 border-t"
                     onClick={closeDropdown}
                   >
-                    {t("volleyball.regularClass")}
+                    {t("volleyball.regularCourse")}
                   </a>
                 </Link>
                 <Link href="/volleyball/trainingCamp" legacyBehavior>

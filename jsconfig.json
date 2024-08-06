@@ -4,7 +4,7 @@
       "@/*": ["./src/*"],
       "@/components/*": ["./src/app/components/*"],
       "@/pages/*": ["./src/app/pages/*"],
-      "@assets/*": ["./src/app/assets/*"]
+      "@/icons/*": ["./src/app/icons/*"]
     }
   }
 }

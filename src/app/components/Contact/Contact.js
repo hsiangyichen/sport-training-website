@@ -14,37 +14,37 @@ const Contact = () => {
     {
       href: "https://www.instagram.com/skysportsacademy_hk?igsh=MTl1anloczBoZ2JxdQ%3D%3D&utm_source=qr",
       label: "instagram",
-      icon: <FaInstagram className="size-9" />,
+      icon: <FaInstagram className="size-7 md:size-9" />,
     },
     {
       href: "https://www.facebook.com/profile.php?id=61557354931867",
       label: "facebook",
-      icon: <FaFacebook className="size-9" />,
+      icon: <FaFacebook className="size-7 md:size-9" />,
     },
     {
       href: "mailto:hkssa2023@gmail.com",
       label: "email",
-      icon: <FaEnvelope className="size-9" />,
+      icon: <FaEnvelope className="size-7 md:size-9" />,
     },
     {
       href: "https://wa.me/85263178410",
       label: "whatsapp",
-      icon: <FaWhatsapp className="size-9" />,
+      icon: <FaWhatsapp className="size-7 md:size-9" />,
     },
   ];
 
   return (
     <div
       id="contact"
-      className="flex pt-28 flex-col items-center justify-center bg-white text-black"
+      className="flex pt-12 md:pt-28 flex-col w-full bg-white text-black"
     >
       <div className="flex flex-row justify-evenly w-full">
-        <div className="flex flex-col text-2xl custom-font-subtitle gap-6 pt-1.5">
+        <div className="flex flex-col custom-font text-3xl md:text-[42px] md:font-medium md:gap-6 md:pt-1.5">
           <a href="/about">{t("about")}</a>
           <a href="/volleyball">{t("volleyball")}</a>
           <a href="#contact">{t("contact")}</a>
         </div>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row gap-2 md:gap-4">
           {iconLinks.map((link) => (
             <a
               key={link.label}
@@ -58,7 +58,7 @@ const Contact = () => {
           ))}
         </div>
       </div>
-      <p className="py-28 custom-font-content">
+      <p className="px-6 pt-5 pb-12 text-center md:mx-0 md:py-28 custom-font text-sm md:text-lg md:font-normal">
         {t("inquiries")}{" "}
         <a href="mailto:hksas2023@gmail.com">hkssa2023@gmail.com</a>
       </p>

@@ -6,7 +6,7 @@
     "volleyball": {
       "label": "排球",
       "details": "總覽",
-      "regularClass": "常規課程",
+      "regularCourse": "常規課程",
       "trainingCamp": "排球訓練營",
       "experienceDay": "排球體驗日(學校/機構)",
       "coachingSupport": "學校或機構的教練輔導",
@@ -30,7 +30,7 @@
         "title": "精英教練團隊",
         "description": "現役香港男子排球隊成員。充滿激情、經驗豐富且高素質，我們的教練提供個性化培訓，幫助運動員充分發揮潛力。",
         "linkText": "了解更多",
-        "linkHref": "/coaches"
+        "linkHref": "/volleyball/coaches"
       },
       "programs": {
         "title": "訓練班",
@@ -42,44 +42,134 @@
         "title": "教練服務",
         "description": "我們可以與學校合作，提供教練計劃，包括定期校隊訓練課程、體能訓練計劃以及表現分析。",
         "linkText": "了解更多",
-        "linkHref": "/coaching-support"
+        "linkHref": "/volleyball/coaching-support"
       }
     }
   },
   "Volleyball": {
     "title": "排球",
     "overview": "總覽",
+    "label": "WHAT WE OFFER",
+    "sections": {
+      "regularCourse": {
+        "title": "恆常訓練課程",
+        "description": "逢星期六常規訓練、排球恆常訓練課程(9-10月)",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/regularCourse"
+      },
+      "trainingCamp": {
+        "title": "排球訓練營",
+        "description": "排球訓練營會在學校長假期舉行(例:暑假、聖誕節、復活節)",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/trainingCamp"
+      },
+      "experienceDay": {
+        "title": "排球體驗日",
+        "description": "致力為學校或機構提供體驗日活動，從而推廣排球運動",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/experienceDay"
+      }
+    },
     "regularCourse": {
       "title": "常規課程",
+      "overview": "總覽",
       "points": [
         "循序漸進地教授排球基本功，從基礎的下手及上手垫球開始，逐步教授更複雜的技術。",
         "培養學生的體育活動能力、協調性、團隊合作和溝通技巧。",
         "通過各種訓練和小型遊戲，為學生提供享受排球運動的平台。",
         "學習運動精神，並教育安全注意事項，以最大程度地降低受傷風險。",
         "為入選HKSSA菁英隊做好準備，代表HKSSA學界參加本地比賽。"
-      ]
+      ],
+      "courseSection": {
+        "title": "排球恆常訓練課程",
+        "courses": [
+          {
+            "name": "Volleyball Regular Course",
+            "course": [
+              {
+                "number": "YTMSSP U18 MVBL",
+                "details": "4節 (120 分鐘 x 4)",
+                "time": "12:00-14:00",
+                "price": "HKD 1400"
+              },
+              {
+                "number": "YTMSSP U18 MVBL",
+                "details": "4節 (120 分鐘 x 4)",
+                "time": "10:00-12:00",
+                "price": "HKD 1400"
+              }
+            ],
+            "images": {
+              "src": "/images/RegularCourseSection.jpg",
+              "alt": "RegularCourseSection"
+            }
+          }
+        ]
+      }
     },
     "trainingCamp": {
       "title": "排球訓練營",
+      "overview": "總覽",
       "points": [
         "非常適合熱衷於排球並希望在短時間內將自己的技能提升到新水平的年輕運動員。",
         "設計個性化的訓練，幫助初學者和進階球員提升技巧、敏捷性和整體比賽水平。",
         "規劃有趣的互動活動，讓學生保持參與和娛樂。",
         "假期期間將排球比賽推向新高度的絕佳機會。",
         "為您提供難忘的排球技藝、知識和記憶。"
-      ]
+      ],
+      "courseSection": {
+        "title": "暑期排球營",
+        "courses": [
+          {
+            "name": "U13 暑期排球營",
+            "course": [
+              {
+                "number": "U13 STC VBL",
+                "details": "15/7-19/7 (120 分鐘 x 5)",
+                "time": "10:00-12:00",
+                "price": "HKD 1800",
+                "venue": "油尖旺及深水埗區體育館"
+              }
+            ],
+            "images": {
+              "src": "/images/TrainingCampSection1.jpg",
+              "alt": "TrainingCampSection1"
+            }
+          },
+          {
+            "name": "U13 暑期排球營",
+            "course": [
+              {
+                "number": "U20 STC VBL",
+                "details": "22/7-26/7 (120 分鐘 x 5)",
+                "time": "10:00-12:00",
+                "price": "HKD 1800",
+                "venue": "油尖旺及深水埗區體育館"
+              }
+            ],
+            "images": {
+              "src": "/images/TrainingCampSection2.jpg",
+              "alt": "TrainingCampSection2"
+            }
+          }
+        ],
+        "extraInfo": "早鳥優惠 (8折) 至 10/7!!"
+      }
     },
     "experienceDay": {
       "title": "排球體驗日(學校/機構)",
+      "overview": "總覽",
       "points": [
         "向同學介紹排球這項團體運動。",
         "學習和體驗排球的基礎知識，加深同學對排球的興趣。",
         "制定不同項目同學逐步學習打排球的基本動作（下手、上手、扣殺），增強對排球的認識。",
-        "適合希望介紹排球這項運動給學生們或繼續發展排球的學校。"
+        "適合希望介紹排球這項運動給學生們或繼續發展排球的學校。",
+        "如有興趣，請通過電子郵件 hkssa2023@gmail.com 與我們聯繫"
       ]
     },
     "coachingSupport": {
       "title": "學校或機構的教練輔導",
+      "overview": "總覽",
       "points": [
         "為學校提供全面的教練團隊，幫助學校提升體育計劃，並爭取卓越成果。",
         "與學校密切合作，設計符合其特定需求和目標的定制教練計劃。",

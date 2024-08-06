@@ -5,8 +5,8 @@ import Image from "next/image";
 const SubPageMainSection = ({ title, image1, image2 }) => {
   return (
     <div className="custom-font sub-page-main-section relative w-full h-[80vh] flex items-center">
-      <div className="absolute inset-0 z-20 flex items-center">
-        <h1 className="text-white text-4xl w-[550px] relative left-72 md:text-7xl font-semibold md:leading-[100px]">
+      <div className="absolute inset-0 z-20 flex items-center flex-col justify-center">
+        <h1 className="text-white text-4xl max-w-[550px] relative right-72 md:text-7xl font-semibold md:leading-[100px]">
           {title}
         </h1>
       </div>

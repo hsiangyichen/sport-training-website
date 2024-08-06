@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the styles
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 import IrregularTitle from "../IrregularTitle";

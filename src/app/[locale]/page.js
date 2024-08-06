@@ -1,6 +1,7 @@
 import Contact from "@/components/Contact";
 import HomePageMainSection from "@/components/HomePageMainSection";
 import ReadMoreSection from "@/components/ReadMoreSection";
+import CardSlider from "@/components/CardSlider";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
@@ -10,9 +11,11 @@ export default function Home() {
   return (
     <>
       <HomePageMainSection />
-      <div className="flex flex-row px-48 py-36 gap-36 items-stretch">
-        <div className="basis-1/2 flex flex-col justify-between">
-          <h1 className="custom-font-subtitle mb-6">{t("label")}</h1>
+      <div className="flex flex-col lg:flex-row px-6 lg:px-28 xl:px-48 lg:py-36 lg:gap-20 xl:gap-36 lg:items-stretch">
+        <div className="basis-1/2 flex flex-col justify-between items-center lg:items-start">
+          <h1 className="custom-font text-3xl mt-12 mb-2 lg:text-[42px] lg:font-medium lg:mt-0 lg:mb-6">
+            {t("label")}
+          </h1>
           <ReadMoreSection
             title={t("sections.coaches.title")}
             description={t("sections.coaches.description")}
@@ -32,7 +35,7 @@ export default function Home() {
             linkHref={t("sections.coachingSupport.linkHref")}
           />
         </div>
-        <div className="basis-1/2 flex items-center justify-center relative">
+        <div className="hidden lg:basis-1/2 lg:flex items-center justify-center relative">
           <Image
             src="/images/HomePage3.JPG"
             alt="home page 3"
@@ -40,7 +43,17 @@ export default function Home() {
             style={{ objectFit: "cover", objectPosition: "center" }}
           />
         </div>
+        <div className="absolute left-0 lg:hidden -z-20 overflow-hidden opacity-10">
+          <Image
+            src="/images/HomePage3.JPG"
+            alt="home page 3"
+            width={500}
+            height={500}
+            className="w-screen"
+          />
+        </div>
       </div>
+      <CardSlider />
       <Contact />
     </>
   );

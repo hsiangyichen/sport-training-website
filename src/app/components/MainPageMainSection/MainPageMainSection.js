@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const MainPageMainSection = ({ title, image }) => {
   return (
-    <div className="custom-font w-screen h-[80vh] flex items-center relative">
-      <div className="absolute inset-0 z-20 flex items-center">
-        <h1 className="text-white text-4xl relative left-72 md:text-7xl font-semibold">
+    <div className="custom-font h-[80vh] flex items-center relative w-full ">
+      <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
+        <h1 className="text-white text-4xl relative right-72 md:text-7xl font-semibold">
           {title}
         </h1>
       </div>

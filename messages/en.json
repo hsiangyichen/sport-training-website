@@ -6,7 +6,7 @@
     "volleyball": {
       "label": "VOLLEYBALL",
       "details": "Overview",
-      "regularClass": "Regular Class",
+      "regularCourse": "Regular Course",
       "trainingCamp": "Training Camp",
       "experienceDay": "Experience Day For School Or Institution",
       "coachingSupport": "Coaching Support For School Or Institution",
@@ -49,37 +49,127 @@
   "Volleyball": {
     "title": "VOLLEYBALL",
     "overview": "OVERVIEW",
+    "label": "WHAT WE OFFER",
+    "sections": {
+      "regularCourse": {
+        "title": "Regular Course",
+        "description": "Volleyball Training Sessions on every Saturday. Morning Volleyball Regular Course (Sep-Oct)",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/regularCourse"
+      },
+      "trainingCamp": {
+        "title": "Training Camp",
+        "description": "Held during School Holidays E.g. Summer, Christmas, Easter Holiday.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/trainingCamp"
+      },
+      "experienceDay": {
+        "title": "Experience Day for Schools or Institutions",
+        "description": "Engaging and interactive volleyball experience sessions for schools. Introduce or further develop volleyball within the school or institution.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/experienceDay"
+      }
+    },
     "regularCourse": {
       "title": "REGULAR COURSE",
+      "overview": "OVERVIEW",
       "points": [
         "Teach fundamentals of volleyball in a progressive manner, starting from basic form of underhand and overarm pass, and gradually advancing to more complex techniques.",
         "Promote physical activity, coordination, teamwork and communication skills among students.",
         "Provide a platform for students to enjoy volleyball through various drills and mini-games.",
         "Emphasize on sportsmanship and educate safety precautions to minimize the risk of injuries.",
         "Act as the stepping stone to being selected for the HKSSA Elite Team →Represents HKSSA in local competitions."
-      ]
+      ],
+      "courseSection": {
+        "title": "TRAINING SESSIONS AND PROGRAM TUITION",
+        "courses": [
+          {
+            "name": "Volleyball Regular Course",
+            "course": [
+              {
+                "number": "YTMSSP U18 MVBL",
+                "details": "4 sessions (120 minutes x 4)",
+                "time": "12:00-14:00",
+                "price": "HKD 1400"
+              },
+              {
+                "number": "YTMSSP U18 MVBL",
+                "details": "4 sessions (120 minutes x 4)",
+                "time": "10:00-12:00",
+                "price": "HKD 1400"
+              }
+            ],
+            "images": {
+              "src": "/images/RegularCourseSection.jpg",
+              "alt": "RegularCourseSection"
+            }
+          }
+        ]
+      }
     },
     "trainingCamp": {
       "title": "TRAINING CAMPS",
+      "overview": "OVERVIEW",
       "points": [
         "Perfect for young athletes who are passionate about volleyball and want to take their skills to the next level in a short period of time.",
         "Design personalized training to help beginners and advanced players improve their technique, agility, and overall game.",
         "Plan fun and interactive activities to keep campers engaged and entertained.",
         "Great opportunity to take the volleyball game to new heights during the holiday breaks.",
         "Provide you with the skills, knowledge, and memories that will last a lifetime!!"
-      ]
+      ],
+      "courseSection": {
+        "title": "CAMP DETAILS",
+        "courses": [
+          {
+            "name": "U13 Summer Volleyball Training Camp",
+            "course": [
+              {
+                "number": "U13 STC VBL",
+                "details": "15/7-19/7 (120 minutes x 5)",
+                "time": "10:00-12:00",
+                "price": "HKD 1800",
+                "venue": "YTM & SSP District Indoor Sports Centre"
+              }
+            ],
+            "images": {
+              "src": "/images/TrainingCampSection1.jpg",
+              "alt": "TrainingCampSection1"
+            }
+          },
+          {
+            "name": "U20 Summer Volleyball Training Camp",
+            "course": [
+              {
+                "number": "U20 STC VBL",
+                "details": "22/7-26/7 (120 minutes x 5)",
+                "time": "10:00-12:00",
+                "price": "HKD 1800",
+                "venue": "YTM & SSP District Indoor Sports Centre"
+              }
+            ],
+            "images": {
+              "src": "/images/TrainingCampSection2.jpg",
+              "alt": "TrainingCampSection2"
+            }
+          }
+        ],
+        "extraInfo": "Early Bird Discount (20% off) until 10/7!!"
+      }
     },
     "experienceDay": {
       "title": "EXPERIENCE DAY FOR SCHOOL OR INSTITUTION",
+      "overview": "OVERVIEW",
       "points": [
         "Introduce students to the exciting sport of volleyball.",
         "Experience the fundamentals of volleyball, ignite students’ passion for the game.",
         "A structured program includes a variety of drills (serving, passing, spiking) designed to enhance participants' understanding of volleyball.",
-        "Perfect for schools who are looking to introduce volleyball as a new sport or further develop existing volleyball programs."
+        "Perfect for schools who are looking to introduce volleyball as a new sport or further develop existing volleyball programs.",
+        "If interested, please contact us via email hkssa2023@gmail.com"
       ]
     },
     "coachingSupport": {
       "title": "COACHING SUPPORT FOR SCHOOL OR INSTITUTION",
+      "overview": "OVERVIEW",
       "points": [
         "Offer comprehensive coaching support to schools, empowering them to enhance their sports programs and achieve remarkable results.",
         "Collaborate closely with schools to design tailored coaching programs that align with their specific needs and goals.",
@@ -139,5 +229,15 @@
       "question": "How are classes arranged during severe weather conditions? Is there a make-up class or refund arrangement?",
       "answer": "We will notify everyone in the WhatsApp group 2 hours before the class whether the training can proceed as scheduled on that day. We do not provide make-up classes, but the class fee for that day will be refunded to the students within 3 working days."
     }
+  },
+  "OtherTrainingPrograms": {
+    "title": "Other Training Programs",
+    "sports": [
+      { "volleyball": "VOLLEYBALL" },
+      { "basketball": "BASKETBALL" },
+      { "football": "FOOTBALL" },
+      { "badminton": "BADMINTON" },
+      { "tennis": "TENNIS" }
+    ]
   }
 }
