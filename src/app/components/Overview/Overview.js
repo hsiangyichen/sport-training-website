@@ -8,7 +8,7 @@ import styles from "./styles.module.scss";
 const Overview = ({ overview, points, images }) => {
   return (
     <div className="flex flex-col lg:flex-row items-center px-6 lg:px-28 xl:px-48 lg:py-36 lg:gap-20 xl:gap-36 overflow-hidden">
-      <div className="flex flex-col items-center lg:items-start justify-center basis-1/2 w-full z-40 py-12">
+      <div className="flex flex-col items-center lg:items-start justify-center basis-1/2 w-full z-10 py-12">
         <h2 className="text-3xl lg:text-[42px] custom-font  mb-6 lg:mb-10">
           {overview}
         </h2>
