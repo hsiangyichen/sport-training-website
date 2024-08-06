@@ -5,7 +5,7 @@ import SubPageMainSection from "@/components/SubPageMainSection";
 import Contact from "@/components/Contact";
 import CardSlider from "@/components/CardSlider";
 
-const experienceDay = () => {
+const ExperienceDay = () => {
   const t = useTranslations("Volleyball.experienceDay");
   const title = t("title");
   const overview = t("overview");
@@ -36,4 +36,4 @@ const experienceDay = () => {
   );
 };
 
-export default experienceDay;
+export default ExperienceDay;

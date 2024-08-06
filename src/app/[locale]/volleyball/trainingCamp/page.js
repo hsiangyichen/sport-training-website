@@ -6,7 +6,7 @@ import SubPageMainSection from "@/components/SubPageMainSection";
 import CourseDetailSection from "@/components/CourseDetailSection";
 import CardSlider from "@/components/CardSlider";
 
-const trainingCamp = () => {
+const TrainingCamp = () => {
   const t = useTranslations("Volleyball.trainingCamp");
   const title = t("title");
   const overview = t("overview");
@@ -55,4 +55,4 @@ const trainingCamp = () => {
   );
 };
 
-export default trainingCamp;
+export default TrainingCamp;

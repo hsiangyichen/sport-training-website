@@ -5,7 +5,7 @@ import SubPageMainSection from "@/components/SubPageMainSection";
 import Contact from "@/components/Contact";
 import CardSlider from "@/components/CardSlider";
 
-const coachingSupport = () => {
+const CoachingSupport = () => {
   const t = useTranslations("Volleyball.coachingSupport");
   const title = t("title");
   const overview = t("overview");
@@ -34,4 +34,4 @@ const coachingSupport = () => {
   );
 };
 
-export default coachingSupport;
+export default CoachingSupport;
