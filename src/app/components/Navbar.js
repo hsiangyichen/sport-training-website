@@ -27,10 +27,14 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+    if (menuOpen) {
+      closeDropdown();
+    }
   };
 
   const closeMenu = () => {
     setMenuOpen(false);
+    closeDropdown();
   };
 
   const iconLinks = [
@@ -77,7 +81,10 @@ const Navbar = () => {
               <Link href="/volleyball" legacyBehavior>
                 <a
                   className="block px-2 md:px-4 py-3 text-sm text-gray-800 hover:bg-gray-200"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.details")}
                 </a>
@@ -85,7 +92,10 @@ const Navbar = () => {
               <Link href="/volleyball/regularCourse" legacyBehavior>
                 <a
                   className="block px-2 md:px-4 py-3 text-sm text-gray-800 hover:bg-gray-200 border-t"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.regularCourse")}
                 </a>
@@ -93,7 +103,10 @@ const Navbar = () => {
               <Link href="/volleyball/trainingCamp" legacyBehavior>
                 <a
                   className="block px-2 md:px-4 py-3 text-sm text-gray-800 hover:bg-gray-200 border-t"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.trainingCamp")}
                 </a>
@@ -101,7 +114,10 @@ const Navbar = () => {
               <Link href="/volleyball/experienceDay" legacyBehavior>
                 <a
                   className="block px-2 md:px-4 py-3 text-sm text-gray-800 hover:bg-gray-200 border-t"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.experienceDay")}
                 </a>
@@ -109,7 +125,10 @@ const Navbar = () => {
               <Link href="/volleyball/coachingSupport" legacyBehavior>
                 <a
                   className="block px-2 md:px-4 py-3 text-sm text-gray-800 hover:bg-gray-200 border-t"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.coachingSupport")}
                 </a>
@@ -117,7 +136,10 @@ const Navbar = () => {
               <Link href="/volleyball/coaches" legacyBehavior>
                 <a
                   className="block px-2 md:px-4 py-3 text-sm text-gray-800 hover:bg-gray-200 border-t"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.coaches")}
                 </a>
@@ -127,7 +149,10 @@ const Navbar = () => {
               <Link href="/volleyball" legacyBehavior>
                 <a
                   className="block px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.details")}
                 </a>
@@ -135,7 +160,10 @@ const Navbar = () => {
               <Link href="/volleyball/regularCourse" legacyBehavior>
                 <a
                   className="block px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.regularCourse")}
                 </a>
@@ -143,7 +171,10 @@ const Navbar = () => {
               <Link href="/volleyball/trainingCamp" legacyBehavior>
                 <a
                   className="block px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.trainingCamp")}
                 </a>
@@ -151,7 +182,10 @@ const Navbar = () => {
               <Link href="/volleyball/experienceDay" legacyBehavior>
                 <a
                   className="block px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.experienceDay")}
                 </a>
@@ -159,7 +193,10 @@ const Navbar = () => {
               <Link href="/volleyball/coachingSupport" legacyBehavior>
                 <a
                   className="block px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.coachingSupport")}
                 </a>
@@ -167,7 +204,10 @@ const Navbar = () => {
               <Link href="/volleyball/coaches" legacyBehavior>
                 <a
                   className="block px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800"
-                  onClick={closeDropdown}
+                  onClick={() => {
+                    closeMenu();
+                    closeDropdown();
+                  }}
                 >
                   {t("volleyball.coaches")}
                 </a>
