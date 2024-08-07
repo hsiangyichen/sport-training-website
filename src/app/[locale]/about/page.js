@@ -78,7 +78,7 @@ const About = () => {
           </div>
           <div className="hidden lg:basis-1/2 lg:flex items-center justify-center relative">
             <Image
-              src="/images/HomePage3.JPG"
+              src="/images/HomePage3.jpg"
               alt="home page 3"
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
@@ -86,7 +86,7 @@ const About = () => {
           </div>
           <div className="absolute left-0 lg:hidden -z-20 overflow-hidden opacity-10">
             <Image
-              src="/images/HomePage3.JPG"
+              src="/images/HomePage3.jpg"
               alt="home page 3"
               width={500}
               height={500}

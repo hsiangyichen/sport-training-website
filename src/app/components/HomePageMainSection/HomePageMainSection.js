@@ -10,19 +10,19 @@ const HomePageMainSection = () => {
   const images = [
     {
       id: 1,
-      url: "/images/HomePage1.JPG",
+      url: "/images/HomePage1.jpg",
       title: "FIND YOUR BEST SPORT MOTIVATION",
       top: "-270px",
     },
     {
       id: 2,
-      url: "/images/Image24.JPG",
+      url: "/images/Image24.jpg",
       title: "SKY IS THE LIMIT",
       top: "-630px",
     },
     {
       id: 3,
-      url: "/images/Image23.JPG",
+      url: "/images/Image23.jpg",
       title: "WHERE CHAMPIONS TAKE FLIGHT",
       top: "-680px",
     },

@@ -37,7 +37,7 @@ const Volleyball = () => {
         </div>
         <div className="hidden lg:basis-1/2 lg:flex items-center justify-center relative">
           <Image
-            src="/images/HomePage1.JPG"
+            src="/images/HomePage1.jpg"
             alt="home page 1"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
@@ -45,7 +45,7 @@ const Volleyball = () => {
         </div>
         <div className="absolute left-0 lg:hidden -z-20 overflow-hidden opacity-10">
           <Image
-            src="/images/HomePage1.JPG"
+            src="/images/HomePage1.jpg"
             alt="home page 1"
             width={500}
             height={500}
