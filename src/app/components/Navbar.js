@@ -226,7 +226,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="w-full px-10 flex justify-between items-center py-6 h-[10vh]">
+    <nav className="w-full px-6 sm:px-10 flex justify-between items-center py-6 h-[10vh]">
       <div className="flex items-center">
         <Link href="/" legacyBehavior>
           <a>
@@ -270,7 +270,7 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        className={`fixed top-0 right-0 h-full bg-zinc-900 opacity-95 text-white flex space-y-6 flex-col items-center justify-center transition-transform transform duration-300 ${
+        className={`fixed top-0 right-0 h-full bg-zinc-950 opacity-95 text-white flex space-y-6 flex-col items-center justify-center transition-transform transform duration-300 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } w-full z-40 lg:hidden`}
       >
