@@ -9,11 +9,14 @@ import CardSlider from "@/components/CardSlider";
 const Volleyball = () => {
   const t = useTranslations("Volleyball");
   return (
-    <div>
+    <div className="flex flex-col justify-between items-center w-full">
       <MainPageMainSection title={t("title")} image="/images/Volleyball.jpg" />
-      <div className="flex flex-col lg:flex-row px-6 lg:px-28 xl:px-48 lg:py-36 lg:gap-20 xl:gap-36 lg:items-stretch">
+      <h1 className=" lg:hidden custom-font text-3xl mt-12 mb-6 ">
+        {t("label")}
+      </h1>
+      <div className="flex flex-col lg:flex-row px-6 lg:px-28 xl:px-48 lg:py-36 lg:gap-20 xl:gap-36 lg:items-stretch w-full">
         <div className="basis-1/2 flex flex-col justify-between items-center lg:items-start">
-          <h1 className="custom-font text-3xl mt-12 mb-2 lg:text-[42px] lg:font-medium lg:mt-0 lg:mb-6">
+          <h1 className="hidden lg:block custom-font text-3xl mt-12 mb-2 lg:text-[42px] lg:font-medium lg:mt-0 lg:mb-6">
             {t("label")}
           </h1>
           <ReadMoreSection

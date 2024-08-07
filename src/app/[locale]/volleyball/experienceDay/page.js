@@ -10,7 +10,6 @@ const ExperienceDay = () => {
   const title = t("title");
   const overview = t("overview");
   const points = t.raw("points");
-  const contactMessage = t("contactMessage");
   const images = [
     { src: "/images/ExperienceDay1.jpg", alt: "ExperienceDay1" },
     { src: "/images/ExperienceDay2.jpg", alt: "ExperienceDay2" },
