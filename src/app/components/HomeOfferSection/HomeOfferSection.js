@@ -12,10 +12,6 @@ const HomeOfferSection = () => {
       <h1 className=" lg:hidden custom-font text-2xl mt-12 mb-6 ">
         {t("label")}
       </h1>
-      {/* <div className="flex flex-col lg:flex-row  lg:px-28 xl:px-48 lg:py-36 lg:gap-20 xl:gap-36 lg:items-stretch overflow-hidden"> */}
-      {/* <div
-        className={`flex flex-col lg:flex-row lg:gap-20 xl:gap-36 overflow-hidden items-center relative ${styles.mainSection}`}
-      > */}
       <div
         className={`flex flex-col lg:flex-row px-6 lg:px-28 xl:px-48 lg:py-36 lg:gap-20 xl:gap-36 lg:items-stretch relative ${styles.mainSection}`}
       >
@@ -50,7 +46,6 @@ const HomeOfferSection = () => {
             style={{ objectFit: "cover", objectPosition: "center" }}
           />
         </div>
-        {/* </div> */}
       </div>
     </div>
   );
