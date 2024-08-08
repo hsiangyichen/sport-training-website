@@ -49,24 +49,24 @@
   "Volleyball": {
     "title": "排球",
     "overview": "總覽",
-    "label": "WHAT WE OFFER",
+    "label": "我們提供",
     "sections": {
       "regularCourse": {
         "title": "恆常訓練課程",
         "description": "逢星期六常規訓練、排球恆常訓練課程(9-10月)",
-        "linkText": "Read More",
+        "linkText": "了解更多",
         "linkHref": "/volleyball/regularCourse"
       },
       "trainingCamp": {
         "title": "排球訓練營",
         "description": "排球訓練營會在學校長假期舉行(例:暑假、聖誕節、復活節)",
-        "linkText": "Read More",
+        "linkText": "了解更多",
         "linkHref": "/volleyball/trainingCamp"
       },
       "experienceDay": {
         "title": "排球體驗日",
         "description": "致力為學校或機構提供體驗日活動，從而推廣排球運動",
-        "linkText": "Read More",
+        "linkText": "了解更多",
         "linkHref": "/volleyball/experienceDay"
       }
     },
@@ -228,6 +228,16 @@
     "severeWeather": {
       "question": "惡劣天氣下課堂如何安排?是否會有補堂/退款安排?",
       "answer": "我們會在上課前 2 小時在 WhatsApp 群組通知大家當天練習能否如 期進行。我們不設補堂，當天的課堂費用會在 3 個工作天內退還給學 生。"
+    }
+  },
+  "OtherTrainingPrograms": {
+    "title": "其他訓練計劃",
+    "sports": {
+      "volleyball": "排球",
+      "badminton": "羽毛球",
+      "basketball": "籃球",
+      "football": "足球",
+      "tennis": "網球"
     }
   }
 }

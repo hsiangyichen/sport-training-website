@@ -12,7 +12,7 @@
 }
 
 .legend:hover {
-  transition: none !important; // Ensure no transition on hover
+  transition: none !important;
 }
 
 .sliderContainer {
@@ -32,7 +32,7 @@
       rgba(0, 0, 0, 0.5) 43%,
       rgba(130, 117, 97, 0) 100%
     );
-    z-index: 1; // Ensure the gradient is above the images but below any other content
+    z-index: 1;
   }
 
   .carousel-root {
@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
   .sliderContainer {
     .title {
       right: 5%;

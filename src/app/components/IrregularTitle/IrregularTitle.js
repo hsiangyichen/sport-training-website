@@ -31,7 +31,7 @@ const IrregularTitle = ({ title }) => {
   };
 
   return (
-    <div className="custom-font text-3xl sm:text-5xl font-medium lg:text-7xl xl:text-[98px] lg:font-semibold">
+    <div className="custom-font text-[32px] sm:text-5xl font-medium lg:text-7xl xl:text-[98px] lg:font-semibold">
       {groupedWords.map((group, index) => (
         <div
           key={index}

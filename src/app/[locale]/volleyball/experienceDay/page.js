@@ -1,9 +1,9 @@
 import React from "react";
-import Overview from "@/app/components/Overview/Overview";
+import Overview from "@components/Overview";
 import { useTranslations } from "next-intl";
-import SubPageMainSection from "@/components/SubPageMainSection";
-import Contact from "@/components/Contact";
-import CardSlider from "@/components/CardSlider";
+import SubPageMainSection from "@components/SubPageMainSection";
+import Contact from "@components/Contact";
+import CardSlider from "@components/CardSlider";
 
 const ExperienceDay = () => {
   const t = useTranslations("Volleyball.experienceDay");

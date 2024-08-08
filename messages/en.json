@@ -232,12 +232,12 @@
   },
   "OtherTrainingPrograms": {
     "title": "Other Training Programs",
-    "sports": [
-      { "volleyball": "VOLLEYBALL" },
-      { "basketball": "BASKETBALL" },
-      { "football": "FOOTBALL" },
-      { "badminton": "BADMINTON" },
-      { "tennis": "TENNIS" }
-    ]
+    "sports": {
+      "volleyball": "VOLLEYBALL",
+      "badminton": "BADMINTON",
+      "basketball": "BASKETBALL",
+      "football": "FOOTBALL",
+      "tennis": "TENNIS"
+    }
   }
 }

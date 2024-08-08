@@ -3,6 +3,7 @@ export * from "./ImageSlider";
 export * from "./ReadMoreSection";
 export * from "./IrregularTitle";
 export * from "./Contact";
+export * from "./HomeOfferSection";
 export * from "./HomePageMainSection";
 export * from "./LocalSwitcher";
 export * from "./MainPageMainSection";

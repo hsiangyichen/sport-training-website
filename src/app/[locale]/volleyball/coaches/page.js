@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslations } from "next-intl";
-import CoachCardSection from "@/components/CoachCardSection";
-import SubPageMainSection from "@/components/SubPageMainSection";
-import Contact from "@/components/Contact";
-import CardSlider from "@/components/CardSlider";
+import CoachCardSection from "@components/CoachCardSection";
+import SubPageMainSection from "@components/SubPageMainSection";
+import Contact from "@components/Contact";
+import CardSlider from "@components/CardSlider";
 
 const Coaches = () => {
   const t = useTranslations("Volleyball.coaches");

@@ -1,10 +1,10 @@
 import React from "react";
 import { useTranslations } from "next-intl";
-import Overview from "@/app/components/Overview/Overview";
-import Contact from "@/components/Contact";
-import SubPageMainSection from "@/components/SubPageMainSection";
-import CourseDetailSection from "@/components/CourseDetailSection";
-import CardSlider from "@/components/CardSlider";
+import Overview from "@components/Overview";
+import Contact from "@components/Contact";
+import SubPageMainSection from "@components/SubPageMainSection";
+import CourseDetailSection from "@components/CourseDetailSection";
+import CardSlider from "@components/CardSlider";
 
 const RegularCourse = () => {
   const t = useTranslations("Volleyball.regularCourse");

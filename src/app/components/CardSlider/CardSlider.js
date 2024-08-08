@@ -8,8 +8,9 @@ import "swiper/css/effect-coverflow";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-import Card from "@/components/Card";
+import Card from "@components/Card";
 import VolleyballIcon from "@/icons/volleyball.svg";
 import BadmintonIcon from "@/icons/badminton.svg";
 import BasketballIcon from "@/icons/basketball.svg";
@@ -18,6 +19,8 @@ import TennisIcon from "@/icons/tennis.svg";
 import Image from "next/image";
 
 function CardSlider() {
+  const t = useTranslations("OtherTrainingPrograms");
+
   const handleComingSoon = () => {};
 
   return (
@@ -50,39 +53,41 @@ function CardSlider() {
         >
           <SwiperSlide>
             <Link href="/volleyball">
-              <Card title="VOLLEYBALL" svgIcon={<VolleyballIcon />} />
+              <Card
+                title={t("sports.volleyball")}
+                svgIcon={<VolleyballIcon />}
+              />
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="BADMINTON"
+              title={t("sports.badminton")}
               svgIcon={<BadmintonIcon />}
               onClick={handleComingSoon}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="BASKETBALL"
+              title={t("sports.basketball")}
               svgIcon={<BasketballIcon />}
               onClick={handleComingSoon}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="FOOTBALL"
+              title={t("sports.football")}
               svgIcon={<FootballIcon />}
               onClick={handleComingSoon}
             />
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              title="TENNIS"
+              title={t("sports.tennis")}
               svgIcon={<TennisIcon />}
               onClick={handleComingSoon}
             />
           </SwiperSlide>
         </Swiper>
-        {/* Custom Navigation Buttons */}
         <div className="custom-prev absolute left-4 top-1/2 transform -translate-y-1/2 p-3 bg-zinc-900 text-white rounded-full cursor-pointer z-10">
           <FaArrowLeft className="h-6 w-6" />
         </div>

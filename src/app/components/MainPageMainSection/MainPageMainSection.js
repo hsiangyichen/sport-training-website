@@ -5,7 +5,7 @@ const MainPageMainSection = ({ title, image }) => {
   return (
     <div className="custom-font h-[30vh] md:h-[80vh] flex items-center relative w-full ">
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
-        <h1 className="text-white text-4xl relative md:right-48 lg:right-72  md:text-7xl font-medium md:font-semibold">
+        <h1 className="text-white text-3xl relative md:right-48 lg:right-72  md:text-7xl font-medium md:font-semibold">
           {title}
         </h1>
       </div>

@@ -1,4 +1,3 @@
-// SubPageMainSection.js
 import React from "react";
 import Image from "next/image";
 
@@ -6,7 +5,7 @@ const SubPageMainSection = ({ title, image1, image2 }) => {
   return (
     <div className="custom-font h-[30vh] md:h-[80vh]  flex items-center relative w-full ">
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
-        <h1 className="text-white text-center md:text-left text-4xl md:max-w-[550px] relative md:right-20 lg:right-56 xl:right-72  md:text-7xl font-medium md:font-semibold">
+        <h1 className="text-white text-center md:text-left text-3xl md:max-w-[550px] relative md:right-20 lg:right-56 xl:right-72  md:text-7xl font-medium md:font-semibold">
           {title}
         </h1>
       </div>

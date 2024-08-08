@@ -35,11 +35,10 @@ const HomePageMainSection = () => {
     if (isInitialMount) {
       setIsInitialMount(false);
     } else {
-      // Force re-render to restart animation
       const titleElement = document.querySelector(`.${styles.title}`);
       if (titleElement) {
         titleElement.style.animation = "none";
-        titleElement.offsetHeight; // Trigger reflow
+        titleElement.offsetHeight;
         titleElement.style.animation = "";
       }
     }
@@ -73,7 +72,6 @@ const HomePageMainSection = () => {
           ))}
         </Carousel>
       </div>
-
       <div className="flex flex-col items-center justify-center w-screen h-[60vh] md:h-[80vh] z-10">
         <div
           key={currentSlide}
