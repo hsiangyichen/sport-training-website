@@ -21,55 +21,76 @@
     "intro": "We are dedicated to providing top-notch sports training and development programs for athletes of all ages and skill levels. Our team of experienced and highly qualified coaches are passionate about helping athletes reach their full potential. With their expertise and guidance, you can expect to receive personalized training that focuses on improving your skills, technique, and overall performance in your chosen sport.",
     "description": "We offer a wide range of sports programs, including volleyball, basketball, football, badminton and tennis. Each program is designed to provide a comprehensive and well-rounded training experience, covering everything from skill development to tactical strategies and physical conditioning. In addition to our regular training programs, we also organize various events, tournaments, and camps throughout the year. These events provide opportunities for athletes to showcase their skills, compete against others, and gain valuable experience in a competitive setting.",
     "mission": "At the Sky Sports Academy, we believe in the power of sports to inspire, empower, and transform lives. Our mission is to nurture talent, instill discipline, and promote a love for sports in all our athletes. Join us on this exciting journey and unlock your full potential with the Sky Sports Academy.",
-    "browse": "Browse through our website to learn more about our programs, facilities, and upcoming events. Feel free to contact us if you have any questions or would like to enroll in one of our programs. Get ready to soar to new heights with the Sky Sports Academy! Your journey to athletic greatness starts here!"
-  },
-  "WhatWeOffer": {
+    "browse": "Browse through our website to learn more about our programs, facilities, and upcoming events. Feel free to contact us if you have any questions or would like to enroll in one of our programs. Get ready to soar to new heights with the Sky Sports Academy! Your journey to athletic greatness starts here!",
     "label": "WHAT WE OFFER",
-    "sections": {
-      "coaches": {
+    "sections": [
+      {
         "title": "Our Coaches",
         "description": "Current Hong Kong Men’s Volleyball Team member. Passionate, experienced, and highly qualified, our coaches provide personalized training to help athletes reach their full potential.",
         "linkText": "Read More",
         "linkHref": "/volleyball/coaches"
       },
-      "programs": {
+      {
         "title": "Different Programs",
         "description": "Comprehensive programs in volleyball, focusing on skill development, tactics and conditioning. Suitable for beginners and advanced players.",
         "linkText": "Read More",
         "linkHref": "/volleyball"
       },
-      "coachingSupport": {
+      {
         "title": "Coaching Support",
         "description": "Collaborate with schools to design tailored coaching programs, including regular training sessions, fitness programs, and performance analysis.",
         "linkText": "Read More",
         "linkHref": "/volleyball/coachingSupport"
       }
-    }
+    ]
+  },
+  "Home": {
+    "label": "WHAT WE OFFER",
+    "sections": [
+      {
+        "title": "Our Coaches",
+        "description": "Current Hong Kong Men’s Volleyball Team member. Passionate, experienced, and highly qualified, our coaches provide personalized training to help athletes reach their full potential.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/coaches"
+      },
+      {
+        "title": "Different Programs",
+        "description": "Comprehensive programs in volleyball, focusing on skill development, tactics and conditioning. Suitable for beginners and advanced players.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball"
+      },
+      {
+        "title": "Coaching Support",
+        "description": "Collaborate with schools to design tailored coaching programs, including regular training sessions, fitness programs, and performance analysis.",
+        "linkText": "Read More",
+        "linkHref": "/volleyball/coachingSupport"
+      }
+    ]
   },
   "Volleyball": {
     "title": "VOLLEYBALL",
     "overview": "OVERVIEW",
     "label": "WHAT WE OFFER",
-    "sections": {
-      "regularCourse": {
+    "sections": [
+      {
         "title": "Regular Course",
         "description": "Volleyball Training Sessions on every Saturday. Morning Volleyball Regular Course (Sep-Oct)",
         "linkText": "Read More",
         "linkHref": "/volleyball/regularCourse"
       },
-      "trainingCamp": {
+      {
         "title": "Training Camp",
         "description": "Held during School Holidays E.g. Summer, Christmas, Easter Holiday.",
         "linkText": "Read More",
         "linkHref": "/volleyball/trainingCamp"
       },
-      "experienceDay": {
+      {
         "title": "Experience Day for Schools or Institutions",
         "description": "Engaging and interactive volleyball experience sessions for schools. Introduce or further develop volleyball within the school or institution.",
         "linkText": "Read More",
         "linkHref": "/volleyball/experienceDay"
       }
-    },
+    ],
     "regularCourse": {
       "title": "REGULAR COURSE",
       "overview": "OVERVIEW",

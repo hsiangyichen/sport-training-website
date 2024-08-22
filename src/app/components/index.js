@@ -13,3 +13,4 @@ export * from "./CourseDetailSection";
 export * from "./HomeOfferSection";
 export * from "./AboutOfferSection";
 export * from "./VolleyballOfferSection";
+export * from "./OfferSection";

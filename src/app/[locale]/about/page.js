@@ -4,18 +4,19 @@ import MainPageMainSection from "@components/MainPageMainSection";
 import Contact from "@components/Contact";
 import CardSlider from "@components/CardSlider";
 import Image from "next/image";
-import AboutOfferSection from "@components/AboutOfferSection";
+import OfferSection from "@components/OfferSection";
 
 const About = () => {
-  const t = useTranslations();
+  const t = useTranslations("About");
+  const images = [
+    { src: "/images/HomePage3.jpg", alt: "HomePage3" },
+    { src: "/images/HomePage3.jpg", alt: "HomePage3" },
+  ];
 
   return (
     <div>
       <div className="w-full flex flex-col items-center ">
-        <MainPageMainSection
-          title={t("About.title")}
-          image="/images/About.jpg"
-        />
+        <MainPageMainSection title={t("title")} image="/images/About.jpg" />
 
         <div className=" text-white text-sm md:text-base flex flex-col  items-center lg:items-start  leading-8 lg:leading-10 w-full py-12 lg:pb-0 lg:pt-20 px-6 xl:px-48 max-w-[1500px]">
           <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-12 ">
@@ -29,28 +30,28 @@ const About = () => {
             <p className="lg:w-2/3">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              {t("About.intro")}
+              {t("intro")}
             </p>
           </div>
           <div className="flex flex-col gap-6 md:gap-12 pt-6 md:pt-12">
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              {t("About.description")}
+              {t("description")}
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              {t("About.mission")}
+              {t("mission")}
             </p>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              {t("About.browse")}
+              {t("browse")}
             </p>
           </div>
         </div>
-        <AboutOfferSection />
+        <OfferSection sectionKey="About" images={images} />
       </div>
       <CardSlider />
       <Contact />
