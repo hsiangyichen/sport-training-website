@@ -21,55 +21,76 @@
     "intro": "我們致力於為各年齡層和技能水平的運動員提供頂級的運動訓練和發展 計劃。我們的教練團經驗豐富，對幫助運動員發現他們的潛力充滿熱 情。在專業指導下, 我們能夠提供針對性訓練, 幫助學員提升在所選運動 中的技能、技巧和整體表現。",
     "description": "我們提供各種運動項目,包括排球、籃球、足球、羽毛球和網球。每個項 目都經過精心設計, 提供全面、均衡的訓練體驗, 涵蓋從技能發展到戰術 策略以及體能訓練的各個方面。除了定期的訓練項目外,我們還全年組織 各種活動、比賽和訓練營。這些活動為運動員提供展示才能、與他人競 爭,以及在競爭環境中獲得寶貴經驗的機會。",
     "mission": "我們相信運動有力量去啟發、賦能和改變生命。我們的使命是培養才 華、灌輸紀律, 並促進所有運動員對運動的熱愛。加入我們這段激動人 心的旅程, 與 Sky Sports Academy 一起激發您的全部潛力。",
-    "browse": "歡迎瀏覽我們的網站, 了解更多關於我們的計劃、設施和即將舉行的活 動。如有任何疑問或想報名參加我們的計劃, 歡迎隨時與我們聯絡。準 備好與 Sky Sports Academy 一起飛向新的高度! 您通往運動成就的旅程 從這裡開始!"
-  },
-  "WhatWeOffer": {
+    "browse": "歡迎瀏覽我們的網站, 了解更多關於我們的計劃、設施和即將舉行的活 動。如有任何疑問或想報名參加我們的計劃, 歡迎隨時與我們聯絡。準 備好與 Sky Sports Academy 一起飛向新的高度! 您通往運動成就的旅程 從這裡開始!",
     "label": "我們提供",
-    "sections": {
-      "coaches": {
+    "sections": [
+      {
+        "title": "我們的教練",
+        "description": "現任香港男子排球隊成員。我們的教練熱情、經驗豐富且高度專業，為運動員提供個性化訓練，幫助他們達到最大潛力。",
+        "linkText": "了解更多",
+        "linkHref": "/volleyball/coaches"
+      },
+      {
+        "title": "不同的課程",
+        "description": "全面的排球課程，專注於技能發展、戰術和體能訓練。適合初學者和進階球員。",
+        "linkText": "了解更多",
+        "linkHref": "/volleyball"
+      },
+      {
+        "title": "教練支援",
+        "description": "與學校合作設計量身訂造的教練計劃，包括定期訓練課程、體能計劃和表現分析。",
+        "linkText": "了解更多",
+        "linkHref": "/volleyball/coachingSupport"
+      }
+    ]
+  },
+  "Home": {
+    "label": "我們提供",
+    "sections": [
+      {
         "title": "精英教練團隊",
         "description": "現役香港男子排球隊成員。充滿激情、經驗豐富且高素質，我們的教練提供個性化培訓，幫助運動員充分發揮潛力。",
         "linkText": "了解更多",
         "linkHref": "/volleyball/coaches"
       },
-      "programs": {
+      {
         "title": "訓練班",
         "description": "我們提供完善的排球教學，內容包括技術培養、戰術指導以及體能訓練。無論是初學者還是有經驗的選手，這些課程都適合你。",
         "linkText": "了解更多",
         "linkHref": "/volleyball"
       },
-      "coachingSupport": {
+      {
         "title": "教練服務",
         "description": "我們可以與學校合作，提供教練計劃，包括定期校隊訓練課程、體能訓練計劃以及表現分析。",
         "linkText": "了解更多",
-        "linkHref": "/volleyball/coaching-support"
+        "linkHref": "/volleyball/coachingSupport"
       }
-    }
+    ]
   },
   "Volleyball": {
     "title": "排球",
     "overview": "總覽",
     "label": "我們提供",
-    "sections": {
-      "regularCourse": {
+    "sections": [
+      {
         "title": "恆常訓練課程",
         "description": "逢星期六常規訓練、排球恆常訓練課程(9-10月)",
         "linkText": "了解更多",
         "linkHref": "/volleyball/regularCourse"
       },
-      "trainingCamp": {
+      {
         "title": "排球訓練營",
         "description": "排球訓練營會在學校長假期舉行(例:暑假、聖誕節、復活節)",
         "linkText": "了解更多",
         "linkHref": "/volleyball/trainingCamp"
       },
-      "experienceDay": {
+      {
         "title": "排球體驗日",
         "description": "致力為學校或機構提供體驗日活動，從而推廣排球運動",
         "linkText": "了解更多",
         "linkHref": "/volleyball/experienceDay"
       }
-    },
+    ],
     "regularCourse": {
       "title": "常規課程",
       "overview": "總覽",
