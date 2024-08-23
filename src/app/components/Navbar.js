@@ -235,7 +235,7 @@ const Navbar = () => {
               alt="logo"
               width={800}
               height={800}
-              className="w-24 my-2"
+              className="w-[90px] my-2"
             />
           </a>
         </Link>
