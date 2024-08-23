@@ -11,11 +11,11 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 import Card from "@components/Card";
-import VolleyballIcon from "@/icons/volleyball.svg";
-import BadmintonIcon from "@/icons/badminton.svg";
-import BasketballIcon from "@/icons/basketball.svg";
-import FootballIcon from "@/icons/football.svg";
-import TennisIcon from "@/icons/tennis.svg";
+import VolleyballIcon from "@icons/volleyball.svg";
+import BadmintonIcon from "@icons/badminton.svg";
+import BasketballIcon from "@icons/basketball.svg";
+import FootballIcon from "@icons/football.svg";
+import TennisIcon from "@icons/tennis.svg";
 import Image from "next/image";
 
 function CardSlider() {
