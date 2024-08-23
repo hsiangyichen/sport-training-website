@@ -31,24 +31,28 @@ const TrainingCamp = () => {
   const extraInfo = t("courseSection.extraInfo", { default: "" });
 
   return (
-    <div>
+    <div className="flex flex-col justify-between items-center w-full">
       <SubPageMainSection
         title={t("title")}
         image1="/images/Volleyball.jpg"
         image2="/images/TrainingCamp.jpg"
       />
-      <Overview
-        title={title}
-        overview={overview}
-        points={points}
-        images={images}
-      />
-      <CourseDetailSection
-        title={courseTitle}
-        courses={courses}
-        image={courseImages}
-        extraInfo={extraInfo}
-      />
+      <div className="max-w-[1500px]">
+        {" "}
+        <Overview
+          title={title}
+          overview={overview}
+          points={points}
+          images={images}
+        />
+        <CourseDetailSection
+          title={courseTitle}
+          courses={courses}
+          image={courseImages}
+          extraInfo={extraInfo}
+        />
+      </div>
+
       <CardSlider />
       <Contact />
     </div>

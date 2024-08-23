@@ -9,9 +9,12 @@ export default function Home() {
     { src: "/images/HomePage3.jpg", alt: "HomePage3" },
   ];
   return (
-    <div>
+    <div className="w-full flex flex-col items-center">
       <HomePageMainSection />
-      <OfferSection sectionKey="Home" images={images} />
+      <div className="max-w-[1500px]">
+        <OfferSection sectionKey="Home" images={images} />
+      </div>
+
       <CardSlider />
       <Contact />
     </div>

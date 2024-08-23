@@ -15,7 +15,9 @@ const Volleyball = () => {
   return (
     <div className="flex flex-col justify-between items-center w-full">
       <MainPageMainSection title={t("title")} image="/images/Volleyball.jpg" />
-      <OfferSection sectionKey="Volleyball" images={images} />
+      <div className="max-w-[1500px]">
+        <OfferSection sectionKey="Volleyball" images={images} />
+      </div>
       <CardSlider />
       <Contact />
     </div>

@@ -17,18 +17,21 @@ const ExperienceDay = () => {
   ];
 
   return (
-    <div>
+    <div className="flex flex-col justify-between items-center w-full">
       <SubPageMainSection
         title={t("title")}
         image1="/images/Volleyball.jpg"
         image2="/images/ExperienceDay.jpg"
       />
-      <Overview
-        title={title}
-        overview={overview}
-        points={points}
-        images={images}
-      />
+      <div className="max-w-[1500px]">
+        <Overview
+          title={title}
+          overview={overview}
+          points={points}
+          images={images}
+        />
+      </div>
+
       <CardSlider />
       <Contact />
     </div>
