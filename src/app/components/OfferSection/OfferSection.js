@@ -12,7 +12,7 @@ const OfferSection = ({ sectionKey, images }) => {
   const sections = t.raw("sections");
 
   return (
-    <div className="flex flex-col items-center lg:items-start ">
+    <div className="flex flex-col items-center lg:items-start">
       <h1 className="lg:hidden custom-font text-2xl mt-12 mb-6 ">
         {t("label")}
       </h1>

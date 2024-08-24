@@ -25,7 +25,7 @@ const Card = ({ title, svgIcon, onClick }) => {
       </h3>
       <div>{svgIcon}</div>
       {showAlert && (
-        <div className="absolute w-28 md:w-36 bottom-5 md:bottom-16 text-white text-xs md:text-base  ">
+        <div className="absolute w-28 md:w-36 bottom-5 md:bottom-16 text-white text-xs md:text-base">
           Coming soon!
         </div>
       )}

@@ -2,7 +2,7 @@ import React from "react";
 
 const CourseDetailSection = ({ title, courses, extraInfo }) => {
   return (
-    <div className=" text-white flex flex-col items-center lg:px-48 ">
+    <div className=" text-white flex flex-col items-center lg:px-48">
       <div className="w-full lg:mb-20 flex flex-col items-center lg:items-start">
         <h2 className="text-2xl lg:text-[42px] custom-font mb-6 lg:mb-10 mx-6 text-center lg:mx-0">
           {title}
@@ -22,7 +22,7 @@ const CourseDetailSection = ({ title, courses, extraInfo }) => {
                 />
               </div>
               <div className="w-full md:w-2/3 p-8">
-                <h3 className="custom-font text-xl lg:text-2xl font-normal mb-4 ">
+                <h3 className="custom-font text-xl lg:text-2xl font-normal mb-4">
                   {course.name}
                 </h3>
                 <ul className="space-y-4">
@@ -35,7 +35,7 @@ const CourseDetailSection = ({ title, courses, extraInfo }) => {
                         <p className="font-medium text-sm lg:text-base">
                           {detail.number}
                         </p>
-                        <p className="text-neutral-400  text-sm lg:text-base">
+                        <p className="text-neutral-400 text-sm lg:text-base">
                           {detail.details}
                         </p>
                       </div>
@@ -43,7 +43,7 @@ const CourseDetailSection = ({ title, courses, extraInfo }) => {
                         <p className="font-medium text-sm lg:text-base">
                           {detail.price}
                         </p>
-                        <p className="text-neutral-400  text-sm lg:text-base">
+                        <p className="text-neutral-400 text-sm lg:text-base">
                           {detail.time}
                         </p>
                       </div>

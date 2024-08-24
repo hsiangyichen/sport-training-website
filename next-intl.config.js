@@ -4,4 +4,5 @@ module.exports = {
   pages: {
     "*": ["common"],
   },
+  plugins: ["@babel/plugin-proposal-class-properties"],
 };
