@@ -32,9 +32,14 @@ const CourseDetailSection = ({ title, courses, extraInfo }) => {
                       className="flex justify-between items-center border-b border-white py-3"
                     >
                       <div className="space-y-1">
-                        <p className="font-medium text-sm lg:text-base">
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScwByM0hSdqMO8FHacMwmbShwjQ-yLxlJgRqSubXHwvC3Aotg/viewform"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-medium text-sm lg:text-base hover:underline"
+                        >
                           {detail.number}
-                        </p>
+                        </a>
                         <p className="text-neutral-400 text-sm lg:text-base">
                           {detail.details}
                         </p>
